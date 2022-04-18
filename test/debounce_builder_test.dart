@@ -9,7 +9,7 @@ Widget makeTestableApp(Widget child) {
 }
 
 void main() {
-  testWidgets('adds one to input values', (tester) async {
+  testWidgets('Debounce builder', (tester) async {
     await tester.runAsync(() async {
       var message = '';
 

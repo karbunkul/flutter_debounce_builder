@@ -1,7 +1,7 @@
 name: debounce_builder
 description: Debounce builder, debounce timer.
 version: 0.9.0
-repository:
+repository: https://github.com/karbunkul/flutter_debounce_builder
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

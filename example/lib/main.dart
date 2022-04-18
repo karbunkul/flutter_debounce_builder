@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Debounce timer'),
       ),
       body: DebounceBuilder(
-        delay: const Duration(milliseconds: 250),
+        delay: const Duration(milliseconds: 450),
         builder: (context, debounce) {
           return TextField(
             onChanged: (value) => debounce(() => print(value)),
